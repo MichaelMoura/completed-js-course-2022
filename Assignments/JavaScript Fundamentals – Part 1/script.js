@@ -25,9 +25,17 @@ const isBiggerThanFinland = population > 6000000;
 const isBiggerThanAverage = population > 33000000;
 const description = "Portugal is in Europe, and its 11 milion people speak portuguese";
 
-//fifth assigment - taking decisions (control structere)
+//fifth assignment - taking decisions (control structere)
 if (population > 33000000) {
     console.log(`${country}'s population is above average`)
 } else {
     console.log(`${country}'s population is below average`)
 };
+
+//sixth assignment - types conversion and coercion
+console.log("coersion and conversion")
+console.log("9" - "5");
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
