@@ -25,3 +25,5 @@ const isBiggerThanFinland = population > 6000000;
 const isBiggerThanAverage = population > 33000000;
 const description = "Portugal is in Europe, and its 11 milion people speak portuguese";
 
+//fifth assigment - taking decisions (control structere)
+
