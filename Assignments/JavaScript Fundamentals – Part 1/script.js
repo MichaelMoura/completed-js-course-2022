@@ -26,4 +26,8 @@ const isBiggerThanAverage = population > 33000000;
 const description = "Portugal is in Europe, and its 11 milion people speak portuguese";
 
 //fifth assigment - taking decisions (control structere)
-
+if (population > 33000000) {
+    console.log(`${country}'s population is above average`)
+} else {
+    console.log(`${country}'s population is below average`)
+};
