@@ -41,7 +41,7 @@ console.log('123' < 57);
 console.log(5 + 6 + '4' + 9 - 4 - 2);
 
 //seventh assignment - equality operators
-const numNeighbours = Number(prompt("How many neighbour countries does your country have"));
+// const numNeighbours = Number(prompt("How many neighbour countries does your country have"));
 
 if (numNeighbours === 1) {
     console.log("Only 1 border");
@@ -49,4 +49,12 @@ if (numNeighbours === 1) {
     console.log("more then 1 border");
 } else {
     console.log("No borders");
+}
+
+//eighth assignment - Logical Operators
+
+if (population < 50000000 && language === "English") {
+    console.log("You should live in Brazil :)")
+} else {
+    console.log("Brazil does not meet your criteria :(")
 }
