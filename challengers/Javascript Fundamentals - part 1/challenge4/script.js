@@ -1,12 +1,7 @@
-let markWeight = 78;
-let markHeight = 1.69;
+const bill = Number(prompt("Insert your bill"));
 
-let johnWeight = 92;
-let johnHeight = 1.95;
+const tip = bill >= 50 && bill <= 300
+    ? bill * 0.15
+    : bill * 0.20;
 
-const markBMI = markWeight / (markHeight ** 2);
-const johnBMI = johnWeight / (johnHeight ** 2);
-
-const markHigherBMI = markBMI > johnBMI;
-
-console.log(markBMI, johnBMI, markHigherBMI);
+alert(`The bill was ${bill}, the tip was ${tip}, and total value ${bill + tip}`);
