@@ -39,3 +39,12 @@ function describePopulation(country, population) {
 }
 
 console.log(describePopulation("Brazil", 233000000));
+
+//fifth assignment - introduce to Arrays
+const populations = new Array(213000000, 86000000, 10000000, 329500000);
+
+console.log(populations.length == 4);
+
+const populationPercentage = populations.map(population => percentageOfWord1(population));
+
+console.log(populationPercentage);
