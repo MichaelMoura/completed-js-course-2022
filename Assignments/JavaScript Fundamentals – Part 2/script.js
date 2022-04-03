@@ -48,3 +48,5 @@ console.log(populations.length == 4);
 const populationPercentage = populations.map(population => percentageOfWord1(population));
 
 console.log(populationPercentage);
+
+//sixth assignment
