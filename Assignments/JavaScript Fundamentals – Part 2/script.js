@@ -29,3 +29,13 @@ console.log(percentageOfWord1(830034034));
 //third assignment - arrow function
 
 const percentageOfWord3 = population => (population / 7900000000) * 100;
+
+//fourth assignment - functions calling outher functions
+
+function describePopulation(country, population) {
+    const percentage = percentageOfWord1(population);
+
+    return `${country} has ${population} million people, which is about ${percentage.toFixed(2)}% of the world`;
+}
+
+console.log(describePopulation("Brazil", 233000000));
