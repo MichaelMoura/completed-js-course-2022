@@ -25,3 +25,7 @@ const percentageOfWord2 = function (population) {
 console.log(percentageOfWord1(230034034));
 console.log(percentageOfWord1(41034034));
 console.log(percentageOfWord1(830034034));
+
+//third assignment - arrow function
+
+const percentageOfWord3 = population => (population / 7900000000) * 100;
