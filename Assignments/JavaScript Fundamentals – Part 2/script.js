@@ -49,4 +49,10 @@ const populationPercentage = populations.map(population => percentageOfWord1(pop
 
 console.log(populationPercentage);
 
-//sixth assignment
+//sixth assignment = introduction to Objects
+const myCountry = {
+    country: "Brazil",
+    language: "Portuguese",
+    population: populations[0],
+    neighbours: ["Argentina", "Chile", "Uruguay", "Peru"]
+};
