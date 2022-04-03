@@ -53,6 +53,13 @@ console.log(populationPercentage);
 const myCountry = {
     country: "Brazil",
     language: "Portuguese",
+    capital: "Brasilia",
     population: populations[0],
     neighbours: ["Argentina", "Chile", "Uruguay", "Peru"]
 };
+
+//seventh assignment - dot vs bracket notation
+console.log(`${myCountry.country} has ${myCountry.population} million finnish-speaking people,${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`)
+
+myCountry.population += 1000000;
+myCountry["population"] -= 2000000;
