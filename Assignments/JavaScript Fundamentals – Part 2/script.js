@@ -63,3 +63,17 @@ console.log(`${myCountry.country} has ${myCountry.population} million finnish-sp
 
 myCountry.population += 1000000;
 myCountry["population"] -= 2000000;
+
+//eighth assignment - Object Methods
+
+myCountry.describe = function () {
+    return (`${this.country} has ${this.population} million finnish-speaking people,${this.neighbours.length} neighbouring countries and a capital called ${this.capital}`)
+}
+
+console.log(myCountry.describe());
+
+myCountry.checkIsland = function () {
+    return this.neighbours.length ? true : false;
+}
+
+console.log(myCountry.checkIsland())
