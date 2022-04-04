@@ -101,4 +101,4 @@ const list = [1, 2, 4, '2', '5', '9', 7, 3, '12']
 while (count < list.length) {
     typeof list[count] === "number" ? console.log(list[count], typeof (list[count])) : "";
     count++;
-}
+} 
