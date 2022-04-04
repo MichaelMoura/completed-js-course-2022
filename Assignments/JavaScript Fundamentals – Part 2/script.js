@@ -92,3 +92,13 @@ listOfNeighbours.forEach((value, index) => {
     value.forEach((country, _) => console.log(`Neighbours ${index + 1}: ${country}`))
 })
 
+//eleventh assignment - thw while loop
+
+let count = 0;
+
+const list = [1, 2, 4, '2', '5', '9', 7, 3, '12']
+
+while (count < list.length) {
+    typeof list[count] === "number" ? console.log(list[count], typeof (list[count])) : "";
+    count++;
+}
