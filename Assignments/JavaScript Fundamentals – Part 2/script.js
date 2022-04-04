@@ -83,3 +83,12 @@ console.log(myCountry.checkIsland())
 for (let i = 1; i <= 50; i++) {
     console.log(`Voter number ${i} is currently voting`)
 }
+
+//tenth assignment - looping backwards and loops in loops
+
+const listOfNeighbours = [["Canada", "Mexico"], ["Spain"], ["Norway", "Sweden", "Russia"]];
+
+listOfNeighbours.forEach((value, index) => {
+    value.forEach((country, _) => console.log(`Neighbours ${index + 1}: ${country}`))
+})
+
