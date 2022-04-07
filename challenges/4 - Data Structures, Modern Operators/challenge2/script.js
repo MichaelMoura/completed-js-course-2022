@@ -61,7 +61,7 @@ const printOdds = () => {
 
 }
 
-const printScorers = () => {
+const generateScorers = () => {
   const value = game.scored.reduce((acc, value) => {
     return !acc[value] ? { ...acc, [value]: 1 } : { ...acc, [value]: acc[value] + 1 }
   }, {})
@@ -71,4 +71,4 @@ const printScorers = () => {
 printGoals();
 calcAvgOdd();
 printOdds();
-printScorers()
+generateScorers()
